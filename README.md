@@ -39,15 +39,24 @@ CGI and Common HTTP Features
 <img src="https://i.imgur.com/RChaxRs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install / Enable IIS in Windows WITH
+- Install / Enable IIS in Windows WITH
 CGI and Common HTTP Features
 World Wide Web Services -> Application Development Features ->
 [X] CGI
 [X] Common HTTP Features
+	
 AND IIS Management Console
 Internet Information Services -> Web Management Tools -> IIS Management Console
 	[X] IIS Management Console
+ Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
+Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+Create the directory C:\PHP
+
+Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+
+Download and install VC_redist.x86.exe.
 </p>
 <br />
 
